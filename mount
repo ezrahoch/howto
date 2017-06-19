@@ -1,0 +1,7 @@
+# Try to see if there is an entry in the disk list with
+sudo fdisk -l  
+
+# Then try to mount
+sudo mount -t ntfs /dev/sdb1 /media
+
+
